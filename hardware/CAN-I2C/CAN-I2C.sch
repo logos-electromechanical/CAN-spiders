@@ -10774,7 +10774,7 @@ DDEController.pdf</description>
 <part name="Q1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL" device="SMD-3.2X1.5" package3d_urn="urn:adsk.eagle:package:37548/1" value="12MHZ"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="F1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_HALF-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.5A"/>
-<part name="AD0" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="DIR" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="AD1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="AD2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="AD3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
@@ -10785,8 +10785,8 @@ DDEController.pdf</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="can-library" deviceset="STRAWSON_EAGLE_LIB_JST_SH_4" device=""/>
-<part name="U$2" library="can-library" deviceset="STRAWSON_EAGLE_LIB_JST_SH_4" device=""/>
+<part name="CAN-IN" library="can-library" deviceset="STRAWSON_EAGLE_LIB_JST_SH_4" device=""/>
+<part name="CAN-OUT" library="can-library" deviceset="STRAWSON_EAGLE_LIB_JST_SH_4" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U4" library="can-library" deviceset="ATTINY816" device="M" package3d_urn="urn:adsk.eagle:package:38948/1"/>
@@ -10798,12 +10798,12 @@ DDEController.pdf</description>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100n"/>
-<part name="DIR" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="AD0" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X16" device="" package3d_urn="urn:adsk.eagle:package:22431/2"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X16" device="" package3d_urn="urn:adsk.eagle:package:22431/2"/>
-<part name="CAN-RIBBON" library="pinhead-1" deviceset="PINHD-2X5" device="_2.54-SMD"/>
+<part name="RIBBON" library="pinhead-1" deviceset="PINHD-2X5" device="_2.54-SMD"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -10840,12 +10840,12 @@ DDEController.pdf</description>
 <instance part="D2" gate="G$1" x="175.26" y="137.16"/>
 <instance part="GND8" gate="1" x="187.96" y="124.46"/>
 <instance part="GND4" gate="1" x="170.18" y="154.94"/>
-<instance part="U$1" gate="G$1" x="139.7" y="182.88"/>
-<instance part="U$2" gate="G$1" x="190.5" y="182.88" rot="MR0"/>
+<instance part="CAN-IN" gate="G$1" x="139.7" y="182.88"/>
+<instance part="CAN-OUT" gate="G$1" x="190.5" y="182.88" rot="MR0"/>
 <instance part="+3V1" gate="G$1" x="109.22" y="187.96"/>
 <instance part="+3V2" gate="G$1" x="198.12" y="157.48" rot="R270"/>
-<instance part="AD0" gate="G$1" x="116.84" y="55.88" smashed="yes">
-<attribute name="NAME" x="121.92" y="55.88" size="1.778" layer="95" font="vector"/>
+<instance part="DIR" gate="G$1" x="116.84" y="58.42" smashed="yes">
+<attribute name="NAME" x="121.92" y="58.42" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="AD1" gate="G$1" x="109.22" y="45.72" smashed="yes">
 <attribute name="NAME" x="121.92" y="45.72" size="1.778" layer="95" font="vector"/>
@@ -10869,11 +10869,11 @@ DDEController.pdf</description>
 <instance part="+3V6" gate="G$1" x="38.1" y="81.28"/>
 <instance part="GND5" gate="1" x="38.1" y="22.86"/>
 <instance part="C7" gate="G$1" x="38.1" y="55.88"/>
-<instance part="DIR" gate="G$1" x="109.22" y="58.42" smashed="yes">
-<attribute name="NAME" x="121.92" y="58.42" size="1.778" layer="95" font="vector"/>
+<instance part="AD0" gate="G$1" x="109.22" y="55.88" smashed="yes">
+<attribute name="NAME" x="121.92" y="55.88" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="+3V7" gate="G$1" x="15.24" y="180.34"/>
-<instance part="CAN-RIBBON" gate="A" x="165.1" y="195.58" rot="R180"/>
+<instance part="RIBBON" gate="A" x="165.1" y="195.58" rot="R180"/>
 <instance part="P+1" gate="1" x="180.34" y="208.28"/>
 <instance part="P+2" gate="1" x="147.32" y="208.28"/>
 <instance part="P+3" gate="1" x="154.94" y="208.28"/>
@@ -11071,17 +11071,17 @@ DDEController.pdf</description>
 <wire x1="170.18" y1="170.18" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 <junction x="170.18" y="170.18"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="4"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
-<pinref part="CAN-RIBBON" gate="A" pin="5"/>
+<pinref part="CAN-IN" gate="G$1" pin="4"/>
+<pinref part="CAN-OUT" gate="G$1" pin="4"/>
+<pinref part="RIBBON" gate="A" pin="5"/>
 <wire x1="167.64" y1="195.58" x2="175.26" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="195.58" x2="175.26" y2="193.04" width="0.1524" layer="91"/>
 <junction x="175.26" y="170.18"/>
-<pinref part="CAN-RIBBON" gate="A" pin="3"/>
+<pinref part="RIBBON" gate="A" pin="3"/>
 <wire x1="175.26" y1="193.04" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="193.04" x2="175.26" y2="193.04" width="0.1524" layer="91"/>
 <junction x="175.26" y="193.04"/>
-<pinref part="CAN-RIBBON" gate="A" pin="6"/>
+<pinref part="RIBBON" gate="A" pin="6"/>
 <wire x1="160.02" y1="195.58" x2="152.4" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="195.58" x2="152.4" y2="170.18" width="0.1524" layer="91"/>
 <junction x="152.4" y="170.18"/>
@@ -11109,15 +11109,16 @@ DDEController.pdf</description>
 <wire x1="114.3" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="45.72" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <junction x="129.54" y="43.18"/>
-<pinref part="AD0" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="55.88" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
-<junction x="129.54" y="45.72"/>
 <pinref part="DIR" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="58.42" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
-<junction x="129.54" y="55.88"/>
+<junction x="129.54" y="45.72"/>
+<pinref part="AD0" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="55.88" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="55.88" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <junction x="139.7" y="40.64"/>
+<junction x="129.54" y="55.88"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="114.3" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
@@ -11159,9 +11160,9 @@ DDEController.pdf</description>
 <wire x1="172.72" y1="175.26" x2="157.48" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="175.26" x2="147.32" y2="175.26" width="0.1524" layer="91"/>
 <junction x="157.48" y="175.26"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<pinref part="CAN-RIBBON" gate="A" pin="7"/>
+<pinref part="CAN-IN" gate="G$1" pin="2"/>
+<pinref part="CAN-OUT" gate="G$1" pin="2"/>
+<pinref part="RIBBON" gate="A" pin="7"/>
 <wire x1="167.64" y1="198.12" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="198.12" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 <junction x="172.72" y="175.26"/>
@@ -11183,9 +11184,9 @@ DDEController.pdf</description>
 <wire x1="154.94" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="139.7" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
 <junction x="165.1" y="177.8"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<pinref part="CAN-RIBBON" gate="A" pin="2"/>
+<pinref part="CAN-IN" gate="G$1" pin="1"/>
+<pinref part="CAN-OUT" gate="G$1" pin="1"/>
+<pinref part="RIBBON" gate="A" pin="2"/>
 <wire x1="160.02" y1="190.5" x2="154.94" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="190.5" x2="154.94" y2="177.8" width="0.1524" layer="91"/>
 <junction x="154.94" y="177.8"/>
@@ -11237,9 +11238,9 @@ DDEController.pdf</description>
 <wire x1="177.8" y1="157.48" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="157.48" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
 <junction x="172.72" y="172.72"/>
-<pinref part="U$1" gate="G$1" pin="3"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
-<pinref part="CAN-RIBBON" gate="A" pin="9"/>
+<pinref part="CAN-IN" gate="G$1" pin="3"/>
+<pinref part="CAN-OUT" gate="G$1" pin="3"/>
+<pinref part="RIBBON" gate="A" pin="9"/>
 <wire x1="167.64" y1="200.66" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="200.66" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
 <junction x="177.8" y="172.72"/>
@@ -11346,20 +11347,6 @@ DDEController.pdf</description>
 <wire x1="104.14" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="(TOSC1)PB3"/>
-<pinref part="DIR" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="(TOSC2)PB2"/>
-<pinref part="AD0" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="PA6"/>
@@ -11376,13 +11363,13 @@ DDEController.pdf</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="CAN-RIBBON" gate="A" pin="1"/>
+<pinref part="RIBBON" gate="A" pin="1"/>
 <wire x1="167.64" y1="190.5" x2="180.34" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="190.5" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="CAN-RIBBON" gate="A" pin="8"/>
+<pinref part="RIBBON" gate="A" pin="8"/>
 <wire x1="160.02" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="198.12" x2="154.94" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
@@ -11390,15 +11377,33 @@ DDEController.pdf</description>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="CAN-RIBBON" gate="A" pin="4"/>
+<pinref part="RIBBON" gate="A" pin="4"/>
 <wire x1="160.02" y1="193.04" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="193.04" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="CAN-RIBBON" gate="A" pin="10"/>
+<pinref part="RIBBON" gate="A" pin="10"/>
 <wire x1="147.32" y1="200.66" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="200.66" x2="152.4" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="200.66" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
 <junction x="147.32" y="200.66"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="(TOSC1)PB3"/>
+<wire x1="91.44" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="DIR" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="(TOSC2)PB2"/>
+<wire x1="91.44" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="AD0" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11437,48 +11442,47 @@ DDEController.pdf</description>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
-<wire x1="83.82" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
-<label x="76.2" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="76.2" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="83.82" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="83.82" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
-<label x="76.2" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="76.2" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="9"/>
+<wire x1="83.82" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="9"/>
-<wire x1="83.82" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<label x="76.2" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="76.2" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="83.82" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!OUT_CS!" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="11"/>
-<wire x1="83.82" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
-<label x="76.2" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="76.2" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="83.82" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="91.44" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="152.4" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
+<pinref part="JP1" gate="A" pin="12"/>
+<wire x1="91.44" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="147.32" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="6"/>
-<wire x1="91.44" y1="154.94" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="154.94" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="104.14" y1="160.02" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="160.02" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11486,11 +11490,12 @@ DDEController.pdf</description>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="91.44" y1="157.48" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="157.48" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
 <wire x1="96.52" y1="160.02" x2="96.52" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="160.02" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
-<junction x="96.52" y="160.02"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="91.44" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="157.48" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+<junction x="96.52" y="157.48"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11498,11 +11503,12 @@ DDEController.pdf</description>
 <pinref part="JP1" gate="A" pin="10"/>
 <wire x1="91.44" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="149.86" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="12"/>
 <wire x1="96.52" y1="147.32" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
-<junction x="96.52" y="147.32"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="91.44" y1="152.4" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="152.4" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<junction x="96.52" y="149.86"/>
 </segment>
 </net>
 </nets>
